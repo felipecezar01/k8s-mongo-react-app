@@ -51,8 +51,13 @@
 > - **Estudar mais profundamente o JWT** e buscar alternativas mais eficientes para autenticação no Node.js.
 > - Dar uma chance ao **NestJS**, mas sem hesitar em retornar ao Java, se necessário.
 
+
 ---
 
 > [!CAUTION]
 > **Nota Final**  
-> Abandonar projetos faz parte do processo de aprendizado, e já estou ansioso para recomeçar com uma abordagem mais eficiente. Vamos em frente!
+> Abandonar projetos faz parte do processo de aprendizado, e já estou ansioso para recomeçar com uma abordagem mais eficiente. Vamos em frente! Matenho minha cabeça erguida perdendo ou ganhando 🤺 
+
+<div align="center">
+   <img src="./rock.gif" alt="Rock">
+</div>

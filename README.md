@@ -26,6 +26,10 @@
 >    Em projetos anteriores, ao trabalhar com **Java**, essa funcionalidade foi muito mais tranquila e intuitiva de implementar.  
 >    Já são **3 horas** tentando corrigir problemas relacionados ao JWT no Node.js sem sucesso, mesmo após múltiplas tentativas de depuração e ajustes.
 
+<div align="center">
+   <img src="./5rl5u6xcwh851.png" alt="Descrição da Imagem">
+</div>
+
 
 ---
 

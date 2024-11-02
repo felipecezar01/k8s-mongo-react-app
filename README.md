@@ -2,6 +2,9 @@
 
 ## Status: **Abandonado**
 
+![4k](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExanV2djN0eDVsY3M0aGw3ZHhyeDAxMjBwN2M5MjBjdzhrOXd0bGV0dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/udoce5CHY5kZSY031S/giphy.gif)
+
+
 ---
 
 > [!IMPORTANT]

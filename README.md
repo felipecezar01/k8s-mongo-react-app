@@ -38,6 +38,11 @@
 > Pretendo recomeçar o projeto utilizando **NestJS**, que é um framework inspirado no Spring Boot do Java e promete simplificar o desenvolvimento backend com Node.js. O NestJS aparenta ter uma estrutura mais organizada e recursos nativos para lidar com autenticação e JWT, o que pode facilitar o processo.  
 > Se o NestJS ainda apresentar desafios similares, considerarei voltar ao **Java com Spring Boot**, que já provou ser mais robusto e confiável para mim.
 
+<div align="center">
+   <img src="./nest.png" alt="Nest">
+</div>
+
+
 ---
 
 > [!WARNING]

@@ -2,8 +2,9 @@
 
 ## Status: **Abandonado**
 
-![4k](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExanV2djN0eDVsY3M0aGw3ZHhyeDAxMjBwN2M5MjBjdzhrOXd0bGV0dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/udoce5CHY5kZSY031S/giphy.gif)
-
+<div align="center">
+   <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExanV2djN0eDVsY3M0aGw3ZHhyeDAxMjBwN2M5MjBjdzhrOXd0bGV0dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/udoce5CHY5kZSY031S/giphy.gif" alt="4k">
+</div>
 
 ---
 
@@ -24,6 +25,7 @@
 >    Este não é o primeiro projeto em que o **Node.js e o JavaScript** me deram muito trabalho no backend, especialmente ao lidar com autenticação JWT.  
 >    Em projetos anteriores, ao trabalhar com **Java**, essa funcionalidade foi muito mais tranquila e intuitiva de implementar.  
 >    Já são **3 horas** tentando corrigir problemas relacionados ao JWT no Node.js sem sucesso, mesmo após múltiplas tentativas de depuração e ajustes.
+
 
 ---
 

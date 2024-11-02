@@ -30,3 +30,38 @@ exports.login = async (req, res) => {
       res.status(500).json({ message: error.message });
    }
 };
+
+// Atualizar perfil do usuário
+exports.updateProfile = async (req, res) => {
+   const userId = req.user.userId; // ID do usuário autenticado
+   const { username, password, newPassword } = req.body;
+
+   try {
+      // Encontrar o usuário no banco de dados
+      const user = await User.findById(userId);
+      if (!user) {
+         return res.status(404).json({ message: "Usuário não encontrado" });
+      }
+
+      // Se o usuário quer atualizar a senha, verificar a senha atual
+      if (password && newPassword) {
+         const isMatch = await bcrypt.compare(password, user.password);
+         if (!isMatch) {
+            return res.status(400).json({ message: "Senha atual incorreta" });
+         }
+         // Atualizar a senha com a nova senha criptografada
+         user.password = await bcrypt.hash(newPassword, 10);
+      }
+
+      // Atualizar o nome de usuário, se fornecido
+      if (username) {
+         user.username = username;
+      }
+
+      // Salvar as mudanças
+      await user.save();
+      res.json({ message: "Perfil atualizado com sucesso" });
+   } catch (error) {
+      res.status(500).json({ message: error.message });
+   }
+};

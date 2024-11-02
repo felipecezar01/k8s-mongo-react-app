@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    ports:
+      - "5000:5000"
+    env_file:
+      - .env
+    depends_on:
+      - mongodb
+    environment:
+      - MONGO_URI=mongodb://mongodb:27017/k8s_database  # Especificando o URI diretamente para o MongoDB no Docker
+      - JWT_SECRET=${JWT_SECRET}
+      - PORT=${PORT}
+
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    command: ["mongod", "--bind_ip_all"]  # Permite acesso externo para o MongoDB
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:

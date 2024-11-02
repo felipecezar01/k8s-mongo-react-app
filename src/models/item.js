@@ -9,6 +9,11 @@ const ItemSchema = new mongoose.Schema({
       type: Boolean,
       default: false,
    },
+   userId: {  // Adiciona o campo userId para associar o item ao usuário
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'User',
+      required: true
+   }
 });
 
 module.exports = mongoose.model('Item', ItemSchema);
